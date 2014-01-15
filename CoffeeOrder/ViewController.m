@@ -86,7 +86,7 @@
         NSString *coffeName = coffee[@"name"];
         NSString *hotAndCold = [NSString stringWithFormat:@"%@",[coffee[@"hotOrIced"] boolValue] ? @"Iced" : @"Hot"];
         NSString *option = [NSString stringWithFormat:@"%@", [alertView textFieldAtIndex:0].text];
-        NSString *orderCoffe = [NSString stringWithFormat:@"%@ (%@) - %@", coffeName, hotAndCold];
+        NSString *orderCoffe = [NSString stringWithFormat:@"%@ (%@)", coffeName, hotAndCold];
         
         NSDictionary *requestDic =
         @{@"coffee": orderCoffe, @"orderer" : @"진정은", @"extra" : option};
