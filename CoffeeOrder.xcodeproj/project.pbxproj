@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B5A7B918866858006CEE01 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B5A7B818866858006CEE01 /* FacebookSDK.framework */; };
+		00B5A7BC18866C72006CEE01 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B5A7BB18866C72006CEE01 /* OrderViewController.m */; };
 		1334A7461886512600032396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A7451886512600032396 /* Foundation.framework */; };
 		1334A7481886512600032396 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A7471886512600032396 /* CoreGraphics.framework */; };
 		1334A74A1886512600032396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A7491886512600032396 /* UIKit.framework */; };
@@ -21,7 +23,6 @@
 		1334A7671886512600032396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A7491886512600032396 /* UIKit.framework */; };
 		1334A76F1886512600032396 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1334A76D1886512600032396 /* InfoPlist.strings */; };
 		1334A7711886512600032396 /* CoffeeOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1334A7701886512600032396 /* CoffeeOrderTests.m */; };
-		1334A77B188658A800032396 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A77A188658A800032396 /* FacebookSDK.framework */; };
 		1334A77D188659E000032396 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A77C188659E000032396 /* Parse.framework */; };
 		1334A77F18865AB800032396 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A77E18865AB800032396 /* SystemConfiguration.framework */; };
 		1334A78118865AE200032396 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A78018865AE200032396 /* AudioToolbox.framework */; };
@@ -45,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B5A7B818866858006CEE01 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		00B5A7BA18866C72006CEE01 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		00B5A7BB18866C72006CEE01 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
 		1334A7421886512600032396 /* CoffeeOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1334A7451886512600032396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1334A7471886512600032396 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +68,6 @@
 		1334A76C1886512600032396 /* CoffeeOrderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeOrderTests-Info.plist"; sourceTree = "<group>"; };
 		1334A76E1886512600032396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1334A7701886512600032396 /* CoffeeOrderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeOrderTests.m; sourceTree = "<group>"; };
-		1334A77A188658A800032396 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		1334A77C188659E000032396 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		1334A77E18865AB800032396 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1334A78018865AE200032396 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -92,10 +95,10 @@
 				1334A78118865AE200032396 /* AudioToolbox.framework in Frameworks */,
 				1334A77F18865AB800032396 /* SystemConfiguration.framework in Frameworks */,
 				1334A7481886512600032396 /* CoreGraphics.framework in Frameworks */,
-				1334A77B188658A800032396 /* FacebookSDK.framework in Frameworks */,
 				1334A74A1886512600032396 /* UIKit.framework in Frameworks */,
 				1334A7461886512600032396 /* Foundation.framework in Frameworks */,
 				1334A77D188659E000032396 /* Parse.framework in Frameworks */,
+				00B5A7B918866858006CEE01 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +137,7 @@
 		1334A7441886512600032396 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00B5A7B818866858006CEE01 /* FacebookSDK.framework */,
 				1334A78E18865B2100032396 /* StoreKit.framework */,
 				1334A78C18865B1A00032396 /* Security.framework */,
 				1334A78A18865B1300032396 /* QuartzCore.framework */,
@@ -144,7 +148,6 @@
 				1334A78018865AE200032396 /* AudioToolbox.framework */,
 				1334A77E18865AB800032396 /* SystemConfiguration.framework */,
 				1334A77C188659E000032396 /* Parse.framework */,
-				1334A77A188658A800032396 /* FacebookSDK.framework */,
 				1334A7451886512600032396 /* Foundation.framework */,
 				1334A7471886512600032396 /* CoreGraphics.framework */,
 				1334A7491886512600032396 /* UIKit.framework */,
@@ -163,6 +166,8 @@
 				1334A75B1886512600032396 /* ViewController.m */,
 				1334A75D1886512600032396 /* Images.xcassets */,
 				1334A74C1886512600032396 /* Supporting Files */,
+				00B5A7BA18866C72006CEE01 /* OrderViewController.h */,
+				00B5A7BB18866C72006CEE01 /* OrderViewController.m */,
 			);
 			path = CoffeeOrder;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 				1334A75C1886512600032396 /* ViewController.m in Sources */,
 				1334A7561886512600032396 /* AppDelegate.m in Sources */,
 				1334A7521886512600032396 /* main.m in Sources */,
+				00B5A7BC18866C72006CEE01 /* OrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +431,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/T/Documents/CoffeeOrder,
+					"/Users/sdt-1/Documents/Projects/CoffeeOrder",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoffeeOrder/CoffeeOrder-Prefix.pch";
@@ -442,6 +449,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/T/Documents/CoffeeOrder,
+					"/Users/sdt-1/Documents/Projects/CoffeeOrder",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoffeeOrder/CoffeeOrder-Prefix.pch";
@@ -512,6 +520,7 @@
 				1334A7761886512600032396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1334A7771886512600032396 /* Build configuration list for PBXNativeTarget "CoffeeOrderTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +529,7 @@
 				1334A7791886512600032396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
